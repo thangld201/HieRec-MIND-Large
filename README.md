@@ -7,6 +7,12 @@ By default, both the training and validation data (MIND Large) are used to train
 
 Since these notebooks were originally run on Google Colab with GPU Tesla K80, I recommend that you use the same environment if you want to try the project.
 
+Upon 2 epochs, without any spectacular training techniques, I achieved the following result on MIND Large Test
+
+|| AUC        | MRR           | nDCG@5  | nDCG@10 |
+| -------| ------------- |:-------------:|:-----:|:-----:|
+|**HieRec**| 0.6848      | 0.3367 | 0.3672 | 0.4242 |
+
 ## Structures
 * `Training_HieRec_MIND_Large_20211.ipynb`: Training on MIND Large
 * `Evaluation_HieRec_MIND_Large_20211.ipynb`: Evaluation on MIND Large
