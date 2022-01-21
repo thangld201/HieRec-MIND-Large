@@ -7,7 +7,7 @@ By default, both the training and validation data (MIND Large) are used to train
 
 Since these notebooks were originally run on Google Colab with GPU Tesla K80, I recommend that you use the same environment if you want to try the project.
 
-## Repository Structures
+## Structures
 * `Training_HieRec_MIND_Large_20211.ipynb`: Training on MIND Large
 * `Evaluation_HieRec_MIND_Large_20211.ipynb`: Evaluation on MIND Large
 * `Ranking_Hierec_MIND_Large_20211.ipynb`: Output ranking submission on MIND Large Test
